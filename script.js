@@ -14,10 +14,23 @@ document.addEventListener("click", function(e){
   }
 });
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 async function startTest(){
   const res = await fetch("./questions.json");
   questions = await res.json();
+  shuffle(questions);
   current = 0;
+
+  scores = {
+    SE:0, CS:0, IoT:0, AI:0, CG:0, Game:0
+  };
+  
   showQuestion();
 }
 
