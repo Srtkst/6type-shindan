@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  background: linear-gradient(135deg,#a18cd1,#fbc2eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-title {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card {
+  background: white;
+  width: 650px;
+  max-width: 90%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+#app img {
+  max-width: 100%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  display: block;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#startBtn {
+  background: #6C63FF;
+  color: white;
+}
+
+#startBtn:hover {
+  background: #574bdb;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.option-btn:hover {
+  background: #ddd;
+}
+
+.progress {
+  height: 8px;
+  background: #eee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #6C63FF;
+  width: 0%;
+  transition: 0.3s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(15px);}
+  to {opacity: 1; transform: translateY(0);}
+}

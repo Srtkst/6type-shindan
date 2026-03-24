@@ -1,0 +1,37 @@
+[
+  {"text":"計画を立てるのが好き","type":"SE"},
+  {"text":"チームをまとめる役割になる","type":"SE"},
+  {"text":"ドキュメントを読むのが苦じゃない","type":"SE"},
+  {"text":"整理整頓が好き","type":"SE"},
+  {"text":"スケジュールを守る","type":"SE"},
+
+  {"text":"数学が好き","type":"CS"},
+  {"text":"パズルを解くのが好き","type":"CS"},
+  {"text":"論理的に考える","type":"CS"},
+  {"text":"計算するのが得意","type":"CS"},
+  {"text":"アルゴリズムを考える","type":"CS"},
+
+  {"text":"機械をいじるのが好き","type":"IoT"},
+  {"text":"センサーを使う","type":"IoT"},
+  {"text":"モノとソフトをつなぐ","type":"IoT"},
+  {"text":"スマート家電に興味がある","type":"IoT"},
+  {"text":"ロボットを作りたい","type":"IoT"},
+
+  {"text":"データを分析するのが好き","type":"AI"},
+  {"text":"未来を予測する","type":"AI"},
+  {"text":"機械学習に興味がある","type":"AI"},
+  {"text":"パターンを見つける","type":"AI"},
+  {"text":"統計を使う","type":"AI"},
+
+  {"text":"絵を描くのが好き","type":"CG"},
+  {"text":"3Dモデルを作る","type":"CG"},
+  {"text":"アニメを見る","type":"CG"},
+  {"text":"デザインを考える","type":"CG"},
+  {"text":"色を合わせる","type":"CG"},
+
+  {"text":"ゲームをするのが好き","type":"Game"},
+  {"text":"ルールを作る","type":"Game"},
+  {"text":"ストーリーを考える","type":"Game"},
+  {"text":"バランスを調整する","type":"Game"},
+  {"text":"キャラクターを作る","type":"Game"}
+]
